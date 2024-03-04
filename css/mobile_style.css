@@ -3,7 +3,7 @@
     Course: CIS133DA 10560
     Lesson: 10
 **/
-/* Style sheet used at 900px breakpoint! */
+/* Style sheet used up to 450px breakpoint! */
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
@@ -49,7 +49,7 @@ nav a {
     display: block;
     color: white;
     text-decoration: none;
-    padding: 20px;
+    padding: 17px 5px;
 }
 
 nav a:hover {
@@ -84,13 +84,13 @@ main {
     flex-wrap: wrap;
 }
 #card-wrap {
-    width: 75%;
+    width: 100%;
 }
 .card {
     background-color: white;
     margin: 10px;
     float: left;
-    width: 48%
+    /* width: 48% */
 }
 img {
     float: left;
@@ -102,11 +102,12 @@ img {
 h2, p {
     margin: 0;
     padding: 13px;
-    font-size: large;
+    font-size: larger;
 }
+
 /* Footer Styles */
 footer {
-    background-color: #2d3437;
+    background-color: #E1693D;
     color: white;
     padding: 20px;
     text-align: center;
